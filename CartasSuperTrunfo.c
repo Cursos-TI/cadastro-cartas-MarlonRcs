@@ -51,7 +51,7 @@ int main() {
         pib1 +
         pontos1 +
         pib_per_capita1 +
-        (densidade1 > 0 ? (float)(1.0 / densidade1) : 0);
+        (densidade1 > 0 ? 1.0 / densidade1) : 0);
 
     // Entrada Carta 2
     printf("\n=== Cadastro da Carta 2 ===\n");
@@ -87,7 +87,7 @@ int main() {
         pib2 +
         pontos2 +
         pib_per_capita2 +
-        (densidade2 > 0 ? (float)(1.0 / densidade2) : 0);
+        (densidade2 > 0 ? 1.0 / densidade2) : 0);
 
     // Comparações (1 = Carta 1 vence, 0 = Carta 2 vence)
     printf("\n=== RESULTADO DAS COMPARACOES ===\n");
